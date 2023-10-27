@@ -1,0 +1,208 @@
+.slide-ville{
+    background:  url(/assets/images/banner-01.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 220px 20% 320px 20%;
+    margin-top: 0px;
+}
+.slide-ville .ville{
+    background: #fff;
+    max-width: 30%;
+    text-align: center;
+    padding: 15px 0;
+    color: #1e1e1e;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.orange{
+    color: #f35525;
+}
+.slide-ville .desc{
+    margin-top: 40px;
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 72px;
+    width: 50%;
+    margin-bottom: 0px;
+}
+.featured{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    position: relative;
+}
+.featured .img-featured a{
+    display: inline-block;
+    width: 110px;
+    height: 110px;
+    line-height: 110px;
+    background-color: #f35525;
+    border-radius: 50%;
+    text-align: center;
+    position: absolute;
+    padding-top: 20px;
+    left: 100px;
+    bottom: 150px;
+}
+
+.featured .desc-featured h5{
+    font-size: 15px;
+    font-weight: 700;
+}
+.featured .desc-featured p{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.featured .desc-featured .list-featured {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: #fafafa;
+    margin-top: 25%;
+    padding: 4px 12px;
+}
+.featured .desc-featured .list-featured ul li{
+    border-bottom: 1px solid rgba(155, 142, 142, 0.596) ;
+    padding: 12px 0;
+}
+.card-featured{
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.15);
+    padding: 35px 30px;
+}
+.card-featured ul li {
+    display: flex;
+    margin-bottom: 25%;
+    padding-bottom: 15%;
+    border-bottom: 0.5px solid rgba(155, 142, 142, 0.596);
+}
+.card-featured ul li img{
+    margin-right: 12px;
+}
+.card-featured ul li h4 span{
+    font-size: 15px;
+    color: #aaa;
+    font-weight: 400;
+}
+.video-view{
+    margin-top: 12px;
+}
+.video-view .blur-bg-video-view .title-view{
+    font-size: 20px;
+    font-weight: 600;
+}
+.video-view .blur-bg-video-view .desc-view{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.video-view .blur-bg-video-view{
+    background: url(/assets/images/video-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0px 250px 0px;
+    position: relative;
+    text-align: center;
+}
+.video-view .video-view-play{
+    display: flex;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    bottom: -120rem;
+    left: 10rem;
+}
+.time-exp{
+    margin-top: 30rem;
+}
+.time-exp ul{
+    display: flex;
+    justify-content: space-around;
+}
+.time-exp ul li{
+    background-color: #ffeee9;
+    position: relative;
+    border-radius: 10px;
+    width: 270px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.time-exp ul li .numb{
+    font-size: 40px;
+    color: #f35525;
+    font-weight: 700;
+}
+.time-exp ul li .count-text{
+    text-align: left;
+    font-size: 16px;
+    color: #1e1e1e;
+    font-weight: 600;
+    line-height: 28px;
+}
+.time-exp ul li .around{
+    position: absolute;
+    top:12px;
+    padding: 10%;
+    color: #1e1e1e;
+    background: #f35525;
+    border-radius: 50%;
+    top:-20px;
+    right:  1px;
+}
+.best-deal{
+    background-color: #fafafa;
+    margin-top: 40px;
+}
+.best-deal .best-deal-desc{
+    padding-left: 10%;
+    padding-top: 3%;
+}
+.best-deal .best-deal-desc .best-deal-title{
+    font-size: 15px;
+    font-weight: 700;
+}
+.best-deal .best-deal-desc p{
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-top: 20px;
+    line-height: 56px;
+}
+.best-deal .best-deal-desc ul{
+    display: flex;
+}
+.best-deal .best-deal-desc ul li{
+    margin:10px 12px;
+    background: #1e1e1e;
+    color: #fff;
+    padding: 12px 15px;
+    border-radius: 5px;
+}
+.best-deal .best-deal-desc ul .press{
+    background: #f35525;
+}
+.best-deal .best-deal-info{
+    display: flex;
+}
+.best-deal .best-deal-info .best-deal-info-list ul{
+
+}
+.best-deal .best-deal-info .best-deal-info-list ul li{
+    display: flex;
+}
+.best-deal .best-deal-info .best-deal-info-list ul li p{
+    padding-left:12px ;
+    max-width: 200px;
+}
